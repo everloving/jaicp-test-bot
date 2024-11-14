@@ -1,7 +1,7 @@
 {
   "project" : {
-    "id" : "just_ai_games_test-256111891-TlU",
-    "name" : "just_ai_games_test-256111891-TlU",
+    "id" : "guess_the_capital_te-1000179852-fXt",
+    "name" : "guess_the_capital_te-1000179852-fXt",
     "folder" : "/platform"
   },
   "settings" : {
@@ -40,6 +40,88 @@
     "phrases" : [ {
       "text" : "привет"
     } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "priority" : 0
+  }, {
+    "path" : "/Согласие",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "да"
+    }, {
+      "text" : "давай"
+    }, {
+      "text" : "сыграем"
+    }, {
+      "text" : "хочу"
+    }, {
+      "text" : "конечно"
+    }, {
+      "text" : "погнали"
+    }, {
+      "text" : "поехали"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Несогласие",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "нет"
+    }, {
+      "text" : "не хочу"
+    }, {
+      "text" : "не буду"
+    }, {
+      "text" : "неа"
+    }, {
+      "text" : "отказываюсь"
+    }, {
+      "text" : "в другой раз"
+    }, {
+      "text" : "не сейчас"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/endThisGame",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "стоп"
+    }, {
+      "text" : "надоело"
+    }, {
+      "text" : "я устал"
+    }, {
+      "text" : "хватит"
+    }, {
+      "text" : "мне надоело"
+    }, {
+      "text" : "сдаюсь"
+    }, {
+      "text" : "закончим"
+    }, {
+      "text" : "я не хочу играть"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Новый интент",
+    "enabled" : true,
+    "shared" : false,
     "classificationRules" : {
       "refs" : [ ]
     },
